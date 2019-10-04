@@ -1,5 +1,8 @@
 FROM jenkins/jenkins:lts
 
+LABEL "author"="Maksym Kotiash"
+LABEL "thanks"="https://hub.docker.com/u/logimethods"
+
 USER root
 
 RUN apt update \
